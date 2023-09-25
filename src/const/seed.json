@@ -1,0 +1,2372 @@
+[
+  {
+    "pet_profile": [
+      {
+        "id": "069b7dcb-442f-4ead-a65c-2fb5e0322c3c",
+        "created_at": "2023-09-24T08:42:10.092Z",
+        "updated_at": "2023-09-24T17:54:57.180Z"
+      },
+      {
+        "id": "95344f43-d7e7-4880-bea6-63a3deb77c55",
+        "created_at": "2023-09-24T17:38:01.910Z",
+        "updated_at": "2023-09-24T21:57:08.747Z"
+      },
+      {
+        "id": "aa1e6fd4-96a1-42e3-8549-4a8ee455f72f",
+        "created_at": "2023-09-25T02:22:27.325Z",
+        "updated_at": "2023-09-25T04:37:56.515Z"
+      },
+      {
+        "id": "357ca85c-ce9d-4093-ae7d-69f818dbc536",
+        "created_at": "2023-09-24T17:15:34.369Z",
+        "updated_at": "2023-09-24T16:25:12.900Z"
+      },
+      {
+        "id": "6cd2763c-aeeb-45b3-ac8d-0ed96fedeb9c",
+        "created_at": "2023-09-25T01:22:23.972Z",
+        "updated_at": "2023-09-24T17:25:31.057Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "bd2f5510-694a-4637-ab27-d2d711a11b01",
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 85136,
+        "weight": 60408,
+        "created_at": "2023-09-25T02:27:47.531Z",
+        "updated_at": "2023-09-24T15:08:55.555Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03a4de75-75a0-4db5-9e47-be0a0933e5a5",
+        "name": "Luna",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 71216,
+        "weight": 83494,
+        "created_at": "2023-09-25T06:59:56.522Z",
+        "updated_at": "2023-09-24T23:17:39.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d23ce00e-9e69-4a2f-9c6b-f981dcde0887",
+        "name": "Charlie",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 38350,
+        "weight": 10992,
+        "created_at": "2023-09-24T09:38:47.291Z",
+        "updated_at": "2023-09-24T18:57:19.530Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "320b721d-504f-4bc3-baa9-c9c7a50eb4f7",
+        "name": "Bella",
+        "species": "Rabbit",
+        "breed": "Dutch Rabbit",
+        "age": 1656,
+        "weight": 37374,
+        "created_at": "2023-09-24T22:12:52.196Z",
+        "updated_at": "2023-09-25T03:25:19.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5685666e-800b-4a1c-be59-c3dad99cbb23",
+        "name": "Rocky",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 96595,
+        "weight": 57558,
+        "created_at": "2023-09-25T03:19:04.074Z",
+        "updated_at": "2023-09-24T18:59:08.874Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "3e5c0ab2-825b-48c4-82c8-9d476f24279a",
+        "sale_date": "2023-09-24T20:26:00.768Z",
+        "price": 39605,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T11:49:12.342Z",
+        "updated_at": "2023-09-25T06:24:48.625Z",
+        "pet_id": "03a4de75-75a0-4db5-9e47-be0a0933e5a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4bbb1b2-8eba-4449-a768-c8dd0b5c2f11",
+        "sale_date": "2023-09-25T05:52:40.114Z",
+        "price": 98414,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T14:44:39.026Z",
+        "updated_at": "2023-09-24T13:34:40.338Z",
+        "pet_id": "320b721d-504f-4bc3-baa9-c9c7a50eb4f7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3db4c6d-aa6e-41cd-abc8-8fe2be707c34",
+        "sale_date": "2023-09-24T23:42:06.400Z",
+        "price": 32410,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-25T04:36:30.557Z",
+        "updated_at": "2023-09-25T01:43:09.600Z",
+        "pet_id": "d23ce00e-9e69-4a2f-9c6b-f981dcde0887",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a95de71-576a-4d5f-a8fb-f34c1276564e",
+        "sale_date": "2023-09-24T11:39:09.584Z",
+        "price": 8519,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-24T16:25:39.878Z",
+        "updated_at": "2023-09-25T06:21:37.987Z",
+        "pet_id": "5685666e-800b-4a1c-be59-c3dad99cbb23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "765b9228-67e2-402b-b3ce-dbbfe823fe18",
+        "sale_date": "2023-09-24T14:28:42.886Z",
+        "price": 4158,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T17:43:32.201Z",
+        "updated_at": "2023-09-24T10:50:57.422Z",
+        "pet_id": "320b721d-504f-4bc3-baa9-c9c7a50eb4f7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "21bc72a9-3da2-49b8-a6d7-76445d2b71d5",
+        "purchase_date": "2023-09-25T05:29:34.124Z",
+        "price": 85030,
+        "payment_method": "Debit Card",
+        "created_at": "2023-09-24T18:26:05.252Z",
+        "updated_at": "2023-09-24T12:09:20.360Z",
+        "pet_id": "03a4de75-75a0-4db5-9e47-be0a0933e5a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6c81bc5-0b63-471e-a5ce-1bea08fb91a7",
+        "purchase_date": "2023-09-24T17:11:51.426Z",
+        "price": 59213,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-25T05:42:07.372Z",
+        "updated_at": "2023-09-24T14:43:58.519Z",
+        "pet_id": "d23ce00e-9e69-4a2f-9c6b-f981dcde0887",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e4c0b31-a92a-46bb-9560-9a432fd7a056",
+        "purchase_date": "2023-09-24T08:45:56.963Z",
+        "price": 16544,
+        "payment_method": "Cash",
+        "created_at": "2023-09-24T14:36:36.458Z",
+        "updated_at": "2023-09-24T20:17:40.222Z",
+        "pet_id": "5685666e-800b-4a1c-be59-c3dad99cbb23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a1ef677-9a2d-4943-81c1-9a3e88068b8b",
+        "purchase_date": "2023-09-24T15:17:07.519Z",
+        "price": 79904,
+        "payment_method": "Cryptocurrency",
+        "created_at": "2023-09-24T19:33:22.073Z",
+        "updated_at": "2023-09-25T05:06:01.965Z",
+        "pet_id": "5685666e-800b-4a1c-be59-c3dad99cbb23",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41e2ca93-8a7c-4135-87f4-8ff527ef7fbd",
+        "purchase_date": "2023-09-24T14:54:55.455Z",
+        "price": 31036,
+        "payment_method": "Gift Card",
+        "created_at": "2023-09-24T19:43:49.188Z",
+        "updated_at": "2023-09-24T20:37:51.691Z",
+        "pet_id": "320b721d-504f-4bc3-baa9-c9c7a50eb4f7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7961af94-077e-470d-b951-adc3baffb6aa",
+        "email": "Elissa.Nienow@roq.tech",
+        "firstName": "Tania",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78018483",
+        "tenantId": null
+      },
+      {
+        "reference": "a1e4ccc3-338d-4a4f-92dc-b5b15b9ff936",
+        "email": "Major65@roq.tech",
+        "firstName": "Aniyah",
+        "lastName": "Mertz-Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/749.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a9dc2fb0-99b9-4ace-bddc-22ecb9c94bb0",
+        "email": "Zula9@roq.tech",
+        "firstName": "Fausto",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91795883",
+        "tenantId": null
+      },
+      {
+        "reference": "320f5cb7-55cd-4a05-9659-4375065a2666",
+        "email": "Neva.Bartoletti6@roq.tech",
+        "firstName": "Eliane",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/48.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e38d909-e201-45b2-9717-57774c1fbab6",
+        "email": "Winnifred.Kirlin@roq.tech",
+        "firstName": "Adolph",
+        "lastName": "Larson-Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/540.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "d2fe6cca-7a47-48a3-8e79-6150621ed45f",
+        "created_at": "2023-09-24T23:40:55.348Z",
+        "updated_at": "2023-09-24T12:35:59.167Z"
+      },
+      {
+        "id": "23b66779-f82c-42f9-b9ab-7562656f948b",
+        "created_at": "2023-09-25T02:01:49.510Z",
+        "updated_at": "2023-09-24T13:59:52.302Z"
+      },
+      {
+        "id": "52893563-0c5e-4f6f-9ec2-d7eef7dd80bc",
+        "created_at": "2023-09-25T04:06:15.992Z",
+        "updated_at": "2023-09-24T21:35:51.301Z"
+      },
+      {
+        "id": "b4edf5ff-4338-4b0c-a91a-4b2e7e64dbc3",
+        "created_at": "2023-09-24T23:35:48.874Z",
+        "updated_at": "2023-09-24T13:37:54.914Z"
+      },
+      {
+        "id": "9b8ae000-66c5-4ff7-ba32-e5eedede480a",
+        "created_at": "2023-09-24T08:51:16.681Z",
+        "updated_at": "2023-09-24T18:43:49.099Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "8da7bf62-b70b-401b-9534-6eb5bcda425c",
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 57861,
+        "weight": 76685,
+        "created_at": "2023-09-25T02:52:08.249Z",
+        "updated_at": "2023-09-24T22:41:01.439Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f8740f6-11c7-47ed-a14c-0dda037dcc1d",
+        "name": "Bella",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 2442,
+        "weight": 83792,
+        "created_at": "2023-09-24T19:52:26.698Z",
+        "updated_at": "2023-09-24T15:50:51.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5daccb36-e33b-40d1-b649-4c95a7588e22",
+        "name": "Charlie",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 62939,
+        "weight": 78748,
+        "created_at": "2023-09-24T16:32:17.167Z",
+        "updated_at": "2023-09-24T10:28:29.365Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2496c17a-e0fa-427c-afc3-1ba27dc7da69",
+        "name": "Luna",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 79090,
+        "weight": 27139,
+        "created_at": "2023-09-24T11:59:57.469Z",
+        "updated_at": "2023-09-24T18:12:06.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83a4ea79-cbd6-4afb-a902-88d4c0f1edeb",
+        "name": "Rocky",
+        "species": "Rabbit",
+        "breed": "Holland Lop",
+        "age": 550,
+        "weight": 17631,
+        "created_at": "2023-09-24T08:29:11.085Z",
+        "updated_at": "2023-09-24T19:25:27.276Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "0bc5ecf0-b31a-4cf6-80c4-864c8f1e584d",
+        "sale_date": "2023-09-25T04:26:25.296Z",
+        "price": 9936,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-25T02:35:33.412Z",
+        "updated_at": "2023-09-24T12:25:29.793Z",
+        "pet_id": "83a4ea79-cbd6-4afb-a902-88d4c0f1edeb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a7939b3-323d-4ca1-b0d7-85a4ccf65511",
+        "sale_date": "2023-09-24T21:52:51.267Z",
+        "price": 8553,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T18:51:10.433Z",
+        "updated_at": "2023-09-24T10:29:09.715Z",
+        "pet_id": "2496c17a-e0fa-427c-afc3-1ba27dc7da69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b82a02e6-2c39-46c5-b9ad-1ad35e54c369",
+        "sale_date": "2023-09-24T22:18:21.911Z",
+        "price": 60249,
+        "payment_method": "Cash",
+        "created_at": "2023-09-24T16:30:46.128Z",
+        "updated_at": "2023-09-25T01:27:52.950Z",
+        "pet_id": "83a4ea79-cbd6-4afb-a902-88d4c0f1edeb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2323afe9-6323-4496-9719-d3dc2c5e32f3",
+        "sale_date": "2023-09-24T17:07:18.978Z",
+        "price": 76806,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-25T00:41:11.521Z",
+        "updated_at": "2023-09-24T12:03:45.854Z",
+        "pet_id": "83a4ea79-cbd6-4afb-a902-88d4c0f1edeb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b9f870c-66a3-4626-a766-89afb1abb2cc",
+        "sale_date": "2023-09-25T03:06:39.175Z",
+        "price": 87572,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T19:16:36.512Z",
+        "updated_at": "2023-09-24T10:03:12.928Z",
+        "pet_id": "2496c17a-e0fa-427c-afc3-1ba27dc7da69",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "012f80ad-344f-45ab-abe3-18e24a867646",
+        "purchase_date": "2023-09-24T15:26:26.150Z",
+        "price": 55619,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T15:30:03.832Z",
+        "updated_at": "2023-09-24T21:35:41.603Z",
+        "pet_id": "6f8740f6-11c7-47ed-a14c-0dda037dcc1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74160f19-5282-4342-bd60-9336df6f0e5a",
+        "purchase_date": "2023-09-24T11:07:47.448Z",
+        "price": 75900,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-25T03:31:52.567Z",
+        "updated_at": "2023-09-25T07:36:04.010Z",
+        "pet_id": "6f8740f6-11c7-47ed-a14c-0dda037dcc1d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9e774a3-d62c-4e49-a4b5-f1e4ca46db2a",
+        "purchase_date": "2023-09-24T10:17:56.950Z",
+        "price": 77049,
+        "payment_method": "Cash",
+        "created_at": "2023-09-25T05:48:38.419Z",
+        "updated_at": "2023-09-25T05:25:35.686Z",
+        "pet_id": "5daccb36-e33b-40d1-b649-4c95a7588e22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb7d8386-7b30-43d0-90b0-6368ca36adfb",
+        "purchase_date": "2023-09-24T08:28:51.093Z",
+        "price": 70275,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-24T15:58:29.732Z",
+        "updated_at": "2023-09-25T02:57:49.396Z",
+        "pet_id": "2496c17a-e0fa-427c-afc3-1ba27dc7da69",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c80ef6d0-b04f-4cac-b838-82ef9b0249e6",
+        "purchase_date": "2023-09-24T20:47:18.898Z",
+        "price": 9636,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-24T19:55:28.938Z",
+        "updated_at": "2023-09-25T01:56:56.731Z",
+        "pet_id": "8da7bf62-b70b-401b-9534-6eb5bcda425c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f64ded3c-c79a-4805-b7e4-99728cd65272",
+        "email": "Heath_Cassin@roq.tech",
+        "firstName": "Dorian",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17050209",
+        "tenantId": null
+      },
+      {
+        "reference": "e201ec0b-6c87-4e48-a971-7571a1e257d6",
+        "email": "Florida.Kuvalis@roq.tech",
+        "firstName": "Enoch",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1240.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7d8ab62-03b8-4b25-b798-b2c61460b6df",
+        "email": "Jarod14@roq.tech",
+        "firstName": "Gavin",
+        "lastName": "Walker-Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/859.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d55f2992-3518-49ba-a60d-f84d6eb2ef73",
+        "email": "Noemie_Hackett@roq.tech",
+        "firstName": "Jewel",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23908749",
+        "tenantId": null
+      },
+      {
+        "reference": "df33d530-0aba-4ab1-aa44-24376b1a5cf2",
+        "email": "Henriette.Rempel67@roq.tech",
+        "firstName": "Carmella",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1399592",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "2a3eefe2-109a-4c76-b164-bd3b0d73b7ba",
+        "created_at": "2023-09-24T22:54:15.741Z",
+        "updated_at": "2023-09-25T00:41:38.708Z"
+      },
+      {
+        "id": "a9401a54-db0e-4e89-8ef4-ef2cb211bf38",
+        "created_at": "2023-09-24T17:04:17.976Z",
+        "updated_at": "2023-09-24T23:38:59.376Z"
+      },
+      {
+        "id": "bd78ac4e-3122-4f17-a8a0-234c431f8dfe",
+        "created_at": "2023-09-25T05:30:23.677Z",
+        "updated_at": "2023-09-24T09:22:05.769Z"
+      },
+      {
+        "id": "1f1505d9-78e6-4090-8e73-0af4c75edc47",
+        "created_at": "2023-09-25T07:58:20.997Z",
+        "updated_at": "2023-09-24T19:49:34.600Z"
+      },
+      {
+        "id": "facfe955-85b1-4856-ad0a-b97fffdb96ed",
+        "created_at": "2023-09-24T09:55:39.273Z",
+        "updated_at": "2023-09-24T18:14:34.300Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "e4579318-b54a-4c44-9673-10af9fec3794",
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 31101,
+        "weight": 52062,
+        "created_at": "2023-09-24T11:32:20.027Z",
+        "updated_at": "2023-09-25T02:09:23.047Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb9223cd-7f26-4d09-9b10-6935dd24c5fd",
+        "name": "Bella",
+        "species": "Cat",
+        "breed": "Siamese",
+        "age": 80422,
+        "weight": 1221,
+        "created_at": "2023-09-24T14:51:24.079Z",
+        "updated_at": "2023-09-24T16:26:41.369Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35a97620-4046-4c89-80ee-ca736f16acfc",
+        "name": "Charlie",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 24191,
+        "weight": 12092,
+        "created_at": "2023-09-25T01:03:28.404Z",
+        "updated_at": "2023-09-24T23:37:48.424Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ac8ba1e-474d-42c8-9c98-e92e2816be19",
+        "name": "Lucy",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 87038,
+        "weight": 16179,
+        "created_at": "2023-09-25T06:29:46.447Z",
+        "updated_at": "2023-09-24T18:05:53.256Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38a644ab-e4fb-41c1-8836-17b623791763",
+        "name": "Cooper",
+        "species": "Rabbit",
+        "breed": "Dutch",
+        "age": 64962,
+        "weight": 89667,
+        "created_at": "2023-09-24T13:46:03.760Z",
+        "updated_at": "2023-09-24T14:36:03.897Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "e09eb18e-f0aa-450b-8d2a-e8fabf517982",
+        "sale_date": "2023-09-25T06:54:42.172Z",
+        "price": 78270,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T11:04:34.317Z",
+        "updated_at": "2023-09-24T12:58:57.943Z",
+        "pet_id": "38a644ab-e4fb-41c1-8836-17b623791763",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c67a45f2-f35d-44b3-8690-4998178f8314",
+        "sale_date": "2023-09-24T22:41:05.581Z",
+        "price": 69489,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T11:11:35.813Z",
+        "updated_at": "2023-09-24T20:48:02.652Z",
+        "pet_id": "e4579318-b54a-4c44-9673-10af9fec3794",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74c9898d-7031-442e-9547-31e0078ef183",
+        "sale_date": "2023-09-25T04:14:10.731Z",
+        "price": 58428,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T21:23:40.436Z",
+        "updated_at": "2023-09-24T11:18:22.238Z",
+        "pet_id": "35a97620-4046-4c89-80ee-ca736f16acfc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a6bce09-345a-4515-9c0f-84fb6c888372",
+        "sale_date": "2023-09-24T14:30:58.268Z",
+        "price": 34691,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-24T08:50:50.199Z",
+        "updated_at": "2023-09-24T14:59:49.667Z",
+        "pet_id": "35a97620-4046-4c89-80ee-ca736f16acfc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2146b220-a31c-4778-8d3c-4e7a06ebb3aa",
+        "sale_date": "2023-09-25T03:15:23.580Z",
+        "price": 30983,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T14:23:42.538Z",
+        "updated_at": "2023-09-24T18:01:39.002Z",
+        "pet_id": "38a644ab-e4fb-41c1-8836-17b623791763",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "67cc9f98-3761-4a65-ad90-2c6a256e5165",
+        "purchase_date": "2023-09-24T08:50:35.848Z",
+        "price": 96521,
+        "payment_method": "Debit Card",
+        "created_at": "2023-09-24T23:17:00.788Z",
+        "updated_at": "2023-09-24T08:59:59.401Z",
+        "pet_id": "eb9223cd-7f26-4d09-9b10-6935dd24c5fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17474952-e09e-434b-a7e2-37ebedc26a93",
+        "purchase_date": "2023-09-25T05:09:16.424Z",
+        "price": 54699,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-24T23:11:54.822Z",
+        "updated_at": "2023-09-25T01:48:48.167Z",
+        "pet_id": "e4579318-b54a-4c44-9673-10af9fec3794",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fb88798-9b21-4637-815e-2832d8b72340",
+        "purchase_date": "2023-09-24T20:27:01.526Z",
+        "price": 4736,
+        "payment_method": "Cash",
+        "created_at": "2023-09-24T08:52:59.204Z",
+        "updated_at": "2023-09-24T14:32:16.322Z",
+        "pet_id": "35a97620-4046-4c89-80ee-ca736f16acfc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8f74bce-26b2-4598-b183-380a3a648c95",
+        "purchase_date": "2023-09-25T07:22:19.049Z",
+        "price": 97708,
+        "payment_method": "Cryptocurrency",
+        "created_at": "2023-09-24T10:08:29.647Z",
+        "updated_at": "2023-09-24T15:53:44.588Z",
+        "pet_id": "35a97620-4046-4c89-80ee-ca736f16acfc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "328ba62a-d479-4fd6-829d-61f23d33b2ff",
+        "purchase_date": "2023-09-24T12:49:31.253Z",
+        "price": 17170,
+        "payment_method": "Check",
+        "created_at": "2023-09-25T04:59:11.509Z",
+        "updated_at": "2023-09-25T00:26:23.488Z",
+        "pet_id": "e4579318-b54a-4c44-9673-10af9fec3794",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "673b91ae-f028-4f10-b519-131bea202d28",
+        "email": "Hilma15@roq.tech",
+        "firstName": "Enoch",
+        "lastName": "Shanahan-Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/832.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f33ea82b-f3c7-4d56-b85f-21e5f2427991",
+        "email": "Lila_Macejkovic79@roq.tech",
+        "firstName": "Alexandrine",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36178499",
+        "tenantId": null
+      },
+      {
+        "reference": "9fefa27e-9a39-4ba1-a5b2-b91c402d0dd3",
+        "email": "Euna_Reynolds36@roq.tech",
+        "firstName": "Jewel",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/79.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29b3073f-6c08-4619-8317-5c4674899c2c",
+        "email": "Markus88@roq.tech",
+        "firstName": "Reyes",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/506.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19d30a02-2c81-42a9-8c7b-fc8ba64890c0",
+        "email": "Trenton_Stracke@roq.tech",
+        "firstName": "Gardner",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47633667",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "1cca5da2-69ea-47a5-86d1-11338a1441f7",
+        "created_at": "2023-09-25T05:40:04.337Z",
+        "updated_at": "2023-09-25T07:14:30.314Z"
+      },
+      {
+        "id": "b61ff076-088a-4fba-a308-691806a2f891",
+        "created_at": "2023-09-25T06:00:47.973Z",
+        "updated_at": "2023-09-24T18:50:10.324Z"
+      },
+      {
+        "id": "2cddfbdd-4f86-4f55-b00f-cc86a3818fe3",
+        "created_at": "2023-09-25T04:31:12.407Z",
+        "updated_at": "2023-09-24T12:08:16.990Z"
+      },
+      {
+        "id": "31056cbe-bba2-4b24-b71c-2aba687fae75",
+        "created_at": "2023-09-25T01:07:16.122Z",
+        "updated_at": "2023-09-24T13:39:24.216Z"
+      },
+      {
+        "id": "96f967bb-330a-4a5b-82c4-c6bea0d27d6b",
+        "created_at": "2023-09-24T20:17:06.021Z",
+        "updated_at": "2023-09-24T15:25:39.601Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "8015439f-1dd0-44ce-a9cd-c996091ec3e9",
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 16226,
+        "weight": 86540,
+        "created_at": "2023-09-25T05:42:55.100Z",
+        "updated_at": "2023-09-24T22:44:34.071Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "121b2738-200b-4c93-8de4-758fa0cdf2f9",
+        "name": "Bella",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 21115,
+        "weight": 55932,
+        "created_at": "2023-09-25T01:55:27.442Z",
+        "updated_at": "2023-09-25T06:05:00.951Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16ab89b4-7bed-47df-a8e4-56391b88b088",
+        "name": "Charlie",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 40659,
+        "weight": 17058,
+        "created_at": "2023-09-24T08:59:48.997Z",
+        "updated_at": "2023-09-24T20:11:23.743Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdd10d9d-4832-4774-b41e-a6b46d81fe7e",
+        "name": "Lucy",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 50144,
+        "weight": 91689,
+        "created_at": "2023-09-24T20:45:17.205Z",
+        "updated_at": "2023-09-24T23:02:14.937Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "105fdef4-4c21-46ce-976b-dbffd584f3ac",
+        "name": "Rocky",
+        "species": "Rabbit",
+        "breed": "Dutch",
+        "age": 97735,
+        "weight": 47007,
+        "created_at": "2023-09-25T06:00:37.255Z",
+        "updated_at": "2023-09-24T21:16:35.178Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "4e25963b-e24d-4ec4-a16d-be9d9d3a16e1",
+        "sale_date": "2023-09-24T22:02:22.379Z",
+        "price": 90799,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T19:05:49.406Z",
+        "updated_at": "2023-09-25T03:50:28.261Z",
+        "pet_id": "16ab89b4-7bed-47df-a8e4-56391b88b088",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d00c89e6-019a-47c3-b4ce-5fba7d35ae94",
+        "sale_date": "2023-09-24T14:33:30.952Z",
+        "price": 73736,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T16:37:50.245Z",
+        "updated_at": "2023-09-24T18:46:42.114Z",
+        "pet_id": "8015439f-1dd0-44ce-a9cd-c996091ec3e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df035c86-2e71-49bf-a8d2-964f99238783",
+        "sale_date": "2023-09-25T03:57:32.671Z",
+        "price": 10593,
+        "payment_method": "Cash",
+        "created_at": "2023-09-25T00:42:11.266Z",
+        "updated_at": "2023-09-24T19:07:09.843Z",
+        "pet_id": "121b2738-200b-4c93-8de4-758fa0cdf2f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f80341fb-28aa-4af7-8289-b506d2cd606d",
+        "sale_date": "2023-09-25T06:12:03.983Z",
+        "price": 6915,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-25T05:07:57.452Z",
+        "updated_at": "2023-09-24T18:10:50.877Z",
+        "pet_id": "121b2738-200b-4c93-8de4-758fa0cdf2f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9e74818-0c7e-441a-80e0-15b59bc4721a",
+        "sale_date": "2023-09-25T04:37:28.577Z",
+        "price": 17990,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T21:43:01.411Z",
+        "updated_at": "2023-09-24T16:24:02.202Z",
+        "pet_id": "105fdef4-4c21-46ce-976b-dbffd584f3ac",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "abbb7c56-9c8b-4ff0-9ed8-4563283fd47a",
+        "purchase_date": "2023-09-24T12:22:56.310Z",
+        "price": 91555,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-25T06:37:15.668Z",
+        "updated_at": "2023-09-24T15:41:13.050Z",
+        "pet_id": "16ab89b4-7bed-47df-a8e4-56391b88b088",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5853f69-ffa7-4816-986e-4f7872ab4741",
+        "purchase_date": "2023-09-25T06:57:03.163Z",
+        "price": 49243,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-25T01:13:12.184Z",
+        "updated_at": "2023-09-25T03:15:10.528Z",
+        "pet_id": "121b2738-200b-4c93-8de4-758fa0cdf2f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c3d1d7e-31f1-4b0a-b759-50968f867b6f",
+        "purchase_date": "2023-09-24T08:45:48.641Z",
+        "price": 84702,
+        "payment_method": "Cryptocurrency",
+        "created_at": "2023-09-24T13:45:56.683Z",
+        "updated_at": "2023-09-24T22:19:21.774Z",
+        "pet_id": "8015439f-1dd0-44ce-a9cd-c996091ec3e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "63da931b-53e6-4eba-8c3d-ffa4beeaf633",
+        "purchase_date": "2023-09-24T09:13:01.102Z",
+        "price": 20156,
+        "payment_method": "Gift Card",
+        "created_at": "2023-09-24T16:28:59.365Z",
+        "updated_at": "2023-09-25T07:14:56.844Z",
+        "pet_id": "8015439f-1dd0-44ce-a9cd-c996091ec3e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7febaca2-c16c-4007-be42-023b6263a176",
+        "purchase_date": "2023-09-24T10:54:09.704Z",
+        "price": 2821,
+        "payment_method": "Mobile Wallet",
+        "created_at": "2023-09-25T04:04:24.635Z",
+        "updated_at": "2023-09-24T10:34:10.643Z",
+        "pet_id": "121b2738-200b-4c93-8de4-758fa0cdf2f9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "137ba0ae-4617-4bf5-b70a-8a51fbb9a844",
+        "email": "Dell.Willms47@roq.tech",
+        "firstName": "Daphne",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89073877",
+        "tenantId": null
+      },
+      {
+        "reference": "dc2340a2-d140-4be3-9d06-7d1f32504a80",
+        "email": "Lina33@roq.tech",
+        "firstName": "Eddie",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb4a63cd-5d5b-4c39-a51e-c4b01ebe1f8a",
+        "email": "Wilfrid69@roq.tech",
+        "firstName": "Eldred",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45458088",
+        "tenantId": null
+      },
+      {
+        "reference": "c79b5c8e-7add-4c10-b9b6-1651bb1d0875",
+        "email": "Saul.Grady76@roq.tech",
+        "firstName": "Brock",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49490536",
+        "tenantId": null
+      },
+      {
+        "reference": "bdaf95e6-9518-4e23-8ddd-5f0669c7b167",
+        "email": "Ignatius.Treutel65@roq.tech",
+        "firstName": "Gonzalo",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/908381",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "d63fe334-8591-4630-9619-aa2a14cb51b3",
+        "created_at": "2023-09-24T09:11:55.884Z",
+        "updated_at": "2023-09-24T20:22:55.968Z"
+      },
+      {
+        "id": "1ea78410-a707-4078-9a08-bf9c0da65481",
+        "created_at": "2023-09-24T09:14:22.700Z",
+        "updated_at": "2023-09-25T02:44:26.565Z"
+      },
+      {
+        "id": "fe768b39-5544-4e58-aebd-b13eb57d9d25",
+        "created_at": "2023-09-24T09:40:57.253Z",
+        "updated_at": "2023-09-25T04:05:13.925Z"
+      },
+      {
+        "id": "90538d7d-263c-4d33-b5a2-709c5d913ea5",
+        "created_at": "2023-09-24T14:22:47.646Z",
+        "updated_at": "2023-09-24T14:45:31.657Z"
+      },
+      {
+        "id": "0a2309d1-b864-4eca-b161-af921de156be",
+        "created_at": "2023-09-24T22:23:43.214Z",
+        "updated_at": "2023-09-24T09:40:13.508Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "8ab750ee-f5f6-4e7d-9acd-2105f3c71a37",
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 20043,
+        "weight": 16752,
+        "created_at": "2023-09-24T19:17:46.141Z",
+        "updated_at": "2023-09-24T18:51:09.400Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01084e42-c59b-42d9-abb6-5be2d822cd7e",
+        "name": "Bella",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 94013,
+        "weight": 62217,
+        "created_at": "2023-09-24T16:04:18.295Z",
+        "updated_at": "2023-09-25T00:08:20.529Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f0f8462-cf90-4efd-a42e-e40d340be715",
+        "name": "Charlie",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 82024,
+        "weight": 2684,
+        "created_at": "2023-09-24T18:03:35.529Z",
+        "updated_at": "2023-09-24T14:33:41.456Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "606e74a9-ea73-48ed-9815-059e091ab905",
+        "name": "Luna",
+        "species": "Rabbit",
+        "breed": "Holland Lop",
+        "age": 96823,
+        "weight": 16357,
+        "created_at": "2023-09-24T15:17:21.495Z",
+        "updated_at": "2023-09-24T18:21:57.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a37e23f3-1cfd-44cc-b038-af39f286c808",
+        "name": "Cooper",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 16686,
+        "weight": 58894,
+        "created_at": "2023-09-24T13:58:42.195Z",
+        "updated_at": "2023-09-25T01:44:44.763Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "b9c5b083-3923-4756-9169-465e1cf26c56",
+        "sale_date": "2023-09-24T22:24:38.649Z",
+        "price": 37593,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T23:44:40.261Z",
+        "updated_at": "2023-09-24T22:45:43.345Z",
+        "pet_id": "4f0f8462-cf90-4efd-a42e-e40d340be715",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "135567d5-2632-4dea-b1ad-061c8d0f03a9",
+        "sale_date": "2023-09-24T13:28:33.239Z",
+        "price": 64780,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T17:30:14.000Z",
+        "updated_at": "2023-09-24T08:08:03.162Z",
+        "pet_id": "01084e42-c59b-42d9-abb6-5be2d822cd7e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "756818e3-40b6-4949-9723-8c43b1985383",
+        "sale_date": "2023-09-24T21:09:22.001Z",
+        "price": 13219,
+        "payment_method": "Cash",
+        "created_at": "2023-09-25T02:44:49.829Z",
+        "updated_at": "2023-09-24T13:07:13.491Z",
+        "pet_id": "4f0f8462-cf90-4efd-a42e-e40d340be715",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f49d201b-2abd-40cf-a633-6dcbc11e15d4",
+        "sale_date": "2023-09-24T15:27:56.799Z",
+        "price": 31188,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T15:36:29.346Z",
+        "updated_at": "2023-09-24T21:25:41.371Z",
+        "pet_id": "01084e42-c59b-42d9-abb6-5be2d822cd7e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d8d2a24-4aee-4f68-9503-c1ffb81ff16f",
+        "sale_date": "2023-09-24T10:35:45.594Z",
+        "price": 33076,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T11:31:55.287Z",
+        "updated_at": "2023-09-25T06:15:46.010Z",
+        "pet_id": "a37e23f3-1cfd-44cc-b038-af39f286c808",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "10d167d4-38a1-4b76-89c8-e1924b1f11b3",
+        "purchase_date": "2023-09-24T11:19:39.023Z",
+        "price": 95055,
+        "payment_method": "Debit Card",
+        "created_at": "2023-09-24T18:14:26.300Z",
+        "updated_at": "2023-09-24T21:09:34.271Z",
+        "pet_id": "4f0f8462-cf90-4efd-a42e-e40d340be715",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74df9d89-a336-4b86-b5c8-7ade46c17ae2",
+        "purchase_date": "2023-09-24T14:43:41.165Z",
+        "price": 89657,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-25T02:26:30.220Z",
+        "updated_at": "2023-09-25T05:25:53.733Z",
+        "pet_id": "8ab750ee-f5f6-4e7d-9acd-2105f3c71a37",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "103c82fb-0879-48ec-a418-29d3bcc2510e",
+        "purchase_date": "2023-09-24T19:10:41.275Z",
+        "price": 38041,
+        "payment_method": "Check",
+        "created_at": "2023-09-25T05:11:06.550Z",
+        "updated_at": "2023-09-24T15:10:38.338Z",
+        "pet_id": "a37e23f3-1cfd-44cc-b038-af39f286c808",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9139add8-ab87-45f2-8cb0-65db766b65f2",
+        "purchase_date": "2023-09-24T14:28:03.862Z",
+        "price": 59401,
+        "payment_method": "Zelle",
+        "created_at": "2023-09-24T23:29:10.877Z",
+        "updated_at": "2023-09-24T15:01:24.686Z",
+        "pet_id": "4f0f8462-cf90-4efd-a42e-e40d340be715",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c31167c1-6fe5-43bf-b48f-bcd396113a35",
+        "purchase_date": "2023-09-25T05:18:46.821Z",
+        "price": 50282,
+        "payment_method": "Samsung Pay",
+        "created_at": "2023-09-24T14:08:00.990Z",
+        "updated_at": "2023-09-25T06:17:23.490Z",
+        "pet_id": "8ab750ee-f5f6-4e7d-9acd-2105f3c71a37",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a43af883-a3c3-48fd-b76b-096b6f0d9ca1",
+        "email": "Clement.Luettgen40@roq.tech",
+        "firstName": "Orville",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1061.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "68148efb-1ee8-4651-9707-6874b82082fc",
+        "email": "Sigrid.Gleason@roq.tech",
+        "firstName": "Laura",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22651162",
+        "tenantId": null
+      },
+      {
+        "reference": "20fee1a1-2e06-44bc-af84-05362b2d3c06",
+        "email": "Meaghan29@roq.tech",
+        "firstName": "Margarita",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88445841",
+        "tenantId": null
+      },
+      {
+        "reference": "9b1a476f-0bdc-412d-be96-e95f1f34c667",
+        "email": "Cory.Hilpert@roq.tech",
+        "firstName": "Nicholaus",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84054640",
+        "tenantId": null
+      },
+      {
+        "reference": "1b970d8c-377a-40c0-89e4-bb19c50740e6",
+        "email": "Savanah_McGlynn@roq.tech",
+        "firstName": "Stephany",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34291813",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "ca75f820-2640-492c-97cd-0bbb16a1b981",
+        "created_at": "2023-09-24T21:16:25.893Z",
+        "updated_at": "2023-09-24T21:14:29.295Z"
+      },
+      {
+        "id": "e58a47e9-ec5d-4ef5-a8b8-d61b25072e0d",
+        "created_at": "2023-09-24T22:56:27.636Z",
+        "updated_at": "2023-09-24T19:56:09.112Z"
+      },
+      {
+        "id": "c8d06c19-192b-4b18-9027-e0b4d62d5c31",
+        "created_at": "2023-09-25T02:47:44.350Z",
+        "updated_at": "2023-09-25T06:32:57.221Z"
+      },
+      {
+        "id": "82cf3a44-ec11-44e1-9511-74b7265fc789",
+        "created_at": "2023-09-25T03:50:49.727Z",
+        "updated_at": "2023-09-24T19:05:13.724Z"
+      },
+      {
+        "id": "2927d4dd-aa45-4a4a-b06f-49140b3bbc0e",
+        "created_at": "2023-09-24T21:29:02.731Z",
+        "updated_at": "2023-09-24T14:56:27.726Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "b58dfdd7-449c-477c-b2f7-54a3674cdedb",
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 82330,
+        "weight": 70374,
+        "created_at": "2023-09-24T20:12:37.131Z",
+        "updated_at": "2023-09-25T06:37:47.857Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e6f1327-5550-42eb-a9ee-0b1118ca04b3",
+        "name": "Bella",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 32283,
+        "weight": 80123,
+        "created_at": "2023-09-24T17:11:15.712Z",
+        "updated_at": "2023-09-24T19:30:34.306Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d846fb32-595f-45a6-9f54-8011053729be",
+        "name": "Charlie",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 45981,
+        "weight": 50203,
+        "created_at": "2023-09-24T18:37:04.467Z",
+        "updated_at": "2023-09-24T19:41:09.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d547356-6d66-443d-a978-5d7fe30708b9",
+        "name": "Luna",
+        "species": "Rabbit",
+        "breed": "Dutch Rabbit",
+        "age": 68877,
+        "weight": 54741,
+        "created_at": "2023-09-24T09:31:38.276Z",
+        "updated_at": "2023-09-24T15:49:25.354Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5706e3b9-00ac-42f4-b6b6-3ae4333dfa41",
+        "name": "Cooper",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 8205,
+        "weight": 70520,
+        "created_at": "2023-09-24T20:54:38.004Z",
+        "updated_at": "2023-09-24T22:18:05.808Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "d9afdbc7-8305-4752-bc59-bd2f7b7e5183",
+        "sale_date": "2023-09-24T08:27:08.170Z",
+        "price": 76575,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-25T02:48:35.180Z",
+        "updated_at": "2023-09-25T00:44:21.093Z",
+        "pet_id": "d846fb32-595f-45a6-9f54-8011053729be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4166ecd8-3327-4c1d-a185-00a61b0c8f51",
+        "sale_date": "2023-09-25T07:57:53.635Z",
+        "price": 76990,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-25T07:29:35.731Z",
+        "updated_at": "2023-09-24T09:41:39.091Z",
+        "pet_id": "9d547356-6d66-443d-a978-5d7fe30708b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01cb7b50-8a01-4e14-ab61-545910e09caa",
+        "sale_date": "2023-09-24T20:07:40.728Z",
+        "price": 18497,
+        "payment_method": "Cash",
+        "created_at": "2023-09-25T00:50:53.163Z",
+        "updated_at": "2023-09-24T08:27:45.694Z",
+        "pet_id": "d846fb32-595f-45a6-9f54-8011053729be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "873dc175-eaaa-44fb-9d79-9046087b6559",
+        "sale_date": "2023-09-25T04:14:58.930Z",
+        "price": 74931,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-24T21:29:58.706Z",
+        "updated_at": "2023-09-24T20:11:40.607Z",
+        "pet_id": "9d547356-6d66-443d-a978-5d7fe30708b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b5573c4-61e8-4d0d-82f3-42f8c08ae4a0",
+        "sale_date": "2023-09-24T10:02:05.579Z",
+        "price": 47704,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T15:50:46.082Z",
+        "updated_at": "2023-09-24T22:20:09.331Z",
+        "pet_id": "5706e3b9-00ac-42f4-b6b6-3ae4333dfa41",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "922df36c-f72e-416c-a843-b533701108bb",
+        "purchase_date": "2023-09-24T11:33:17.899Z",
+        "price": 10780,
+        "payment_method": "Debit Card",
+        "created_at": "2023-09-24T14:01:09.730Z",
+        "updated_at": "2023-09-24T18:40:20.135Z",
+        "pet_id": "b58dfdd7-449c-477c-b2f7-54a3674cdedb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92027e79-af62-4d32-8203-8b455cbb22e8",
+        "purchase_date": "2023-09-24T18:01:04.917Z",
+        "price": 9200,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-25T03:01:45.037Z",
+        "updated_at": "2023-09-25T01:17:45.084Z",
+        "pet_id": "9d547356-6d66-443d-a978-5d7fe30708b9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad9d8c1b-df6b-4f27-993a-e40898734a27",
+        "purchase_date": "2023-09-24T10:14:30.601Z",
+        "price": 29657,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T23:26:35.826Z",
+        "updated_at": "2023-09-25T05:46:10.972Z",
+        "pet_id": "b58dfdd7-449c-477c-b2f7-54a3674cdedb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "586d8ea2-a858-4db3-80e0-27011354491a",
+        "purchase_date": "2023-09-25T05:34:54.034Z",
+        "price": 36812,
+        "payment_method": "Bitcoin",
+        "created_at": "2023-09-24T08:34:01.718Z",
+        "updated_at": "2023-09-25T01:54:36.293Z",
+        "pet_id": "b58dfdd7-449c-477c-b2f7-54a3674cdedb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4774204-4463-4a84-b077-dd8a6a7698b8",
+        "purchase_date": "2023-09-24T16:57:59.216Z",
+        "price": 95654,
+        "payment_method": "Ethereum",
+        "created_at": "2023-09-24T22:11:21.915Z",
+        "updated_at": "2023-09-25T03:35:40.312Z",
+        "pet_id": "b58dfdd7-449c-477c-b2f7-54a3674cdedb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19028193-dac1-4c4e-a4c1-23fa1b263463",
+        "email": "Boris_Franecki@roq.tech",
+        "firstName": "Una",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/25.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "551bf06c-6ec9-4109-bcb0-1b2052cb52af",
+        "email": "Charlene_Ryan@roq.tech",
+        "firstName": "Vernice",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92655298",
+        "tenantId": null
+      },
+      {
+        "reference": "f8c19c83-3fd0-4f1f-aea0-8fe31f188711",
+        "email": "Pearl64@roq.tech",
+        "firstName": "Jarret",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1030.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "28a0cb2a-3126-4431-8000-fe60fd5f32a0",
+        "email": "Werner.Rath@roq.tech",
+        "firstName": "Annalise",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/293.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "330d1b6a-80e8-45d2-a46a-327fbc474cbb",
+        "email": "Jamar72@roq.tech",
+        "firstName": "Lambert",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "c0e34395-ea2c-4d26-a473-2a128666dcd6",
+        "created_at": "2023-09-24T22:22:25.736Z",
+        "updated_at": "2023-09-25T01:56:09.800Z"
+      },
+      {
+        "id": "3abf8f08-442b-426f-ba28-a262cf5605f5",
+        "created_at": "2023-09-25T01:01:25.922Z",
+        "updated_at": "2023-09-25T07:27:01.241Z"
+      },
+      {
+        "id": "c96e6750-efdb-4f45-93ab-d631657e384a",
+        "created_at": "2023-09-24T10:48:19.839Z",
+        "updated_at": "2023-09-24T15:05:49.690Z"
+      },
+      {
+        "id": "b249d766-f3d9-4872-bfa4-80a5ef0c1e13",
+        "created_at": "2023-09-24T13:38:50.814Z",
+        "updated_at": "2023-09-24T19:16:14.650Z"
+      },
+      {
+        "id": "4ed89882-fb3e-44c1-a5e5-86a490dedc02",
+        "created_at": "2023-09-24T12:42:23.672Z",
+        "updated_at": "2023-09-25T01:54:45.115Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "5489b910-fc54-40ab-9730-3760d119c95e",
+        "name": "Buddy",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 60566,
+        "weight": 77736,
+        "created_at": "2023-09-25T02:14:27.681Z",
+        "updated_at": "2023-09-24T15:21:37.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f145928e-4203-4d2c-bae5-48cf86d119c4",
+        "name": "Luna",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 63583,
+        "weight": 34677,
+        "created_at": "2023-09-24T19:44:55.613Z",
+        "updated_at": "2023-09-25T00:48:07.937Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3fd2b22-5e68-4fb2-a0db-d3d7e03e828c",
+        "name": "Max",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 41949,
+        "weight": 52797,
+        "created_at": "2023-09-25T05:51:00.042Z",
+        "updated_at": "2023-09-24T19:10:43.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "443914e2-06e7-47fa-8d48-d6c7233f3ee7",
+        "name": "Daisy",
+        "species": "Rabbit",
+        "breed": "Holland Lop",
+        "age": 61907,
+        "weight": 17154,
+        "created_at": "2023-09-25T07:25:14.645Z",
+        "updated_at": "2023-09-24T13:53:00.849Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa06942b-0a40-4d9b-b10a-ea597162384d",
+        "name": "Charlie",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 59831,
+        "weight": 34530,
+        "created_at": "2023-09-24T18:51:55.650Z",
+        "updated_at": "2023-09-25T01:13:08.724Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "322fec4f-b41c-4d03-800e-64981ef1034c",
+        "sale_date": "2023-09-24T22:40:18.805Z",
+        "price": 86539,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T18:21:19.962Z",
+        "updated_at": "2023-09-24T22:04:17.671Z",
+        "pet_id": "d3fd2b22-5e68-4fb2-a0db-d3d7e03e828c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deb2783b-cde3-48b6-ae18-2485d31f1569",
+        "sale_date": "2023-09-25T02:43:18.940Z",
+        "price": 51405,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T17:22:20.960Z",
+        "updated_at": "2023-09-25T04:26:03.884Z",
+        "pet_id": "f145928e-4203-4d2c-bae5-48cf86d119c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87459391-0db2-43c1-9bb6-2091c1166289",
+        "sale_date": "2023-09-24T13:43:51.886Z",
+        "price": 78596,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T23:42:27.034Z",
+        "updated_at": "2023-09-24T09:07:08.729Z",
+        "pet_id": "443914e2-06e7-47fa-8d48-d6c7233f3ee7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ab31608-ff64-4cca-a68e-bcabcb487e9b",
+        "sale_date": "2023-09-24T22:18:57.630Z",
+        "price": 17100,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-24T08:05:04.585Z",
+        "updated_at": "2023-09-24T21:34:38.499Z",
+        "pet_id": "443914e2-06e7-47fa-8d48-d6c7233f3ee7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa54f751-3f20-4d76-b78c-b2f840948ff0",
+        "sale_date": "2023-09-25T00:07:00.952Z",
+        "price": 86952,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T17:27:43.082Z",
+        "updated_at": "2023-09-24T19:42:59.046Z",
+        "pet_id": "5489b910-fc54-40ab-9730-3760d119c95e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "b5719f79-149f-4159-b884-6fc33800fc82",
+        "purchase_date": "2023-09-25T04:22:49.978Z",
+        "price": 99006,
+        "payment_method": "Debit Card",
+        "created_at": "2023-09-24T13:15:55.706Z",
+        "updated_at": "2023-09-24T10:09:15.400Z",
+        "pet_id": "aa06942b-0a40-4d9b-b10a-ea597162384d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fea54eb-4651-4018-bb59-0c9d054f870f",
+        "purchase_date": "2023-09-25T01:49:10.623Z",
+        "price": 89054,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-24T13:09:26.102Z",
+        "updated_at": "2023-09-24T22:51:58.070Z",
+        "pet_id": "5489b910-fc54-40ab-9730-3760d119c95e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e4d2f5f-f48c-451b-91fe-f0b523055fff",
+        "purchase_date": "2023-09-24T23:04:46.393Z",
+        "price": 73753,
+        "payment_method": "Cash",
+        "created_at": "2023-09-24T11:10:05.148Z",
+        "updated_at": "2023-09-24T14:12:36.216Z",
+        "pet_id": "f145928e-4203-4d2c-bae5-48cf86d119c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16dc0dd0-6759-4cb0-bc9d-e0c74622df35",
+        "purchase_date": "2023-09-24T17:10:34.660Z",
+        "price": 8972,
+        "payment_method": "Cryptocurrency",
+        "created_at": "2023-09-24T14:47:35.975Z",
+        "updated_at": "2023-09-24T23:42:12.160Z",
+        "pet_id": "f145928e-4203-4d2c-bae5-48cf86d119c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a10fd6f-eef6-48c7-acaf-56055883b8d3",
+        "purchase_date": "2023-09-24T14:41:49.627Z",
+        "price": 38870,
+        "payment_method": "Mobile Wallet",
+        "created_at": "2023-09-25T06:38:13.544Z",
+        "updated_at": "2023-09-24T12:37:47.458Z",
+        "pet_id": "aa06942b-0a40-4d9b-b10a-ea597162384d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "62fca93c-2126-44de-bc7f-4a1d2bc19a00",
+        "email": "Jaylin36@roq.tech",
+        "firstName": "Roosevelt",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31073157",
+        "tenantId": null
+      },
+      {
+        "reference": "9bf4ebc3-e8bd-4df9-87bc-f589efc8894f",
+        "email": "Rosamond_Gislason@roq.tech",
+        "firstName": "Chyna",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1180218",
+        "tenantId": null
+      },
+      {
+        "reference": "1c31e265-1580-4c83-aae4-7254488ef43f",
+        "email": "Maude_Christiansen@roq.tech",
+        "firstName": "Orlo",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12310246",
+        "tenantId": null
+      },
+      {
+        "reference": "c47bf6d7-1bc7-4124-8b0f-1aa90813953d",
+        "email": "Hipolito.Klein85@roq.tech",
+        "firstName": "Hettie",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75887759",
+        "tenantId": null
+      },
+      {
+        "reference": "a4ca952d-7369-4cdc-b099-13e47d9db8aa",
+        "email": "Magdalena.Funk@roq.tech",
+        "firstName": "Orin",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3383541",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "45695809-f0a7-4603-99d6-fd73b714d155",
+        "created_at": "2023-09-25T00:47:08.607Z",
+        "updated_at": "2023-09-25T02:21:21.469Z"
+      },
+      {
+        "id": "9bad77d6-e3e2-4003-8194-e216d6e58ba9",
+        "created_at": "2023-09-24T23:57:20.197Z",
+        "updated_at": "2023-09-24T16:39:40.054Z"
+      },
+      {
+        "id": "44b922de-1ae7-4229-bec4-d4b88df9a5cb",
+        "created_at": "2023-09-25T01:17:53.239Z",
+        "updated_at": "2023-09-24T23:18:52.893Z"
+      },
+      {
+        "id": "186bb335-5a2f-4bf3-b530-16b873e994cd",
+        "created_at": "2023-09-24T23:17:48.100Z",
+        "updated_at": "2023-09-24T18:08:42.779Z"
+      },
+      {
+        "id": "b5a4e5a8-a0f1-4b51-883f-e9e2022199b8",
+        "created_at": "2023-09-25T04:02:42.003Z",
+        "updated_at": "2023-09-25T06:08:47.482Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "ca76c67b-415d-4902-ad9d-f30fd7e519d7",
+        "name": "Buddy",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 5998,
+        "weight": 77512,
+        "created_at": "2023-09-24T23:28:58.586Z",
+        "updated_at": "2023-09-24T11:44:53.567Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58e553d9-5671-4985-8195-a209925cc83e",
+        "name": "Luna",
+        "species": "Cat",
+        "breed": "Siamese",
+        "age": 29367,
+        "weight": 78229,
+        "created_at": "2023-09-25T05:07:46.828Z",
+        "updated_at": "2023-09-25T04:04:51.680Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3caf559a-d12d-4326-8d2a-54b58c906fdf",
+        "name": "Max",
+        "species": "Rabbit",
+        "breed": "Holland Lop",
+        "age": 20457,
+        "weight": 17327,
+        "created_at": "2023-09-25T05:32:11.268Z",
+        "updated_at": "2023-09-24T12:05:07.418Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "edabbe83-bb53-459c-8d64-22b3fe2575bc",
+        "name": "Daisy",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 15376,
+        "weight": 98979,
+        "created_at": "2023-09-24T15:30:10.097Z",
+        "updated_at": "2023-09-24T17:17:38.950Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27199fe9-125a-4092-b5fc-0b761553cc95",
+        "name": "Charlie",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 93116,
+        "weight": 92326,
+        "created_at": "2023-09-24T14:57:10.985Z",
+        "updated_at": "2023-09-24T13:05:04.797Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "f476b730-b319-41c4-b87f-4d0115e93917",
+        "sale_date": "2023-09-24T21:46:18.466Z",
+        "price": 80104,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T18:11:17.506Z",
+        "updated_at": "2023-09-24T20:27:19.042Z",
+        "pet_id": "3caf559a-d12d-4326-8d2a-54b58c906fdf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcd3aabb-2329-48ec-9bf8-f410cdea265a",
+        "sale_date": "2023-09-24T17:23:29.101Z",
+        "price": 92100,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T18:59:21.813Z",
+        "updated_at": "2023-09-25T06:38:53.651Z",
+        "pet_id": "edabbe83-bb53-459c-8d64-22b3fe2575bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e787f94-be25-4702-a0b5-b3768cd7ee00",
+        "sale_date": "2023-09-25T00:45:49.544Z",
+        "price": 59897,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T15:13:43.095Z",
+        "updated_at": "2023-09-24T22:56:19.020Z",
+        "pet_id": "58e553d9-5671-4985-8195-a209925cc83e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71f73c37-689c-42f7-b224-d8dacc635d27",
+        "sale_date": "2023-09-24T14:26:25.439Z",
+        "price": 74339,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-25T06:42:08.822Z",
+        "updated_at": "2023-09-24T11:44:10.476Z",
+        "pet_id": "ca76c67b-415d-4902-ad9d-f30fd7e519d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85efa736-ff5a-43e1-be7e-5e95626b1390",
+        "sale_date": "2023-09-24T13:43:39.729Z",
+        "price": 39329,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T10:41:29.830Z",
+        "updated_at": "2023-09-24T16:56:33.318Z",
+        "pet_id": "27199fe9-125a-4092-b5fc-0b761553cc95",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "539fef87-d9e6-4a93-98e0-af8706121810",
+        "purchase_date": "2023-09-24T21:02:25.441Z",
+        "price": 70552,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T22:31:00.319Z",
+        "updated_at": "2023-09-24T08:19:08.506Z",
+        "pet_id": "58e553d9-5671-4985-8195-a209925cc83e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "710bcdc8-2833-49aa-8ba8-8a3f75655b56",
+        "purchase_date": "2023-09-24T09:06:04.007Z",
+        "price": 58662,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-25T06:48:18.345Z",
+        "updated_at": "2023-09-24T13:18:31.438Z",
+        "pet_id": "edabbe83-bb53-459c-8d64-22b3fe2575bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d216fd2-1d97-471a-8ce1-65a4f41dce83",
+        "purchase_date": "2023-09-24T09:26:34.583Z",
+        "price": 80674,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T22:18:05.125Z",
+        "updated_at": "2023-09-25T02:49:50.070Z",
+        "pet_id": "27199fe9-125a-4092-b5fc-0b761553cc95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "144a1354-e2c2-4059-93e7-f6a72f6ddcc5",
+        "purchase_date": "2023-09-24T20:18:21.186Z",
+        "price": 50848,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-24T08:24:12.190Z",
+        "updated_at": "2023-09-24T17:22:30.454Z",
+        "pet_id": "edabbe83-bb53-459c-8d64-22b3fe2575bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7cdceea5-4796-4b34-8023-011ff7386c09",
+        "purchase_date": "2023-09-24T10:48:43.353Z",
+        "price": 13943,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T15:09:53.442Z",
+        "updated_at": "2023-09-24T16:45:38.015Z",
+        "pet_id": "edabbe83-bb53-459c-8d64-22b3fe2575bc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "45a89867-5563-4c15-862f-01896deff5ad",
+        "email": "Jayme51@roq.tech",
+        "firstName": "Valentina",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90987395",
+        "tenantId": null
+      },
+      {
+        "reference": "ba2925a8-6e8f-4c86-b406-57160f5f47b4",
+        "email": "Lempi80@roq.tech",
+        "firstName": "Kian",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/975.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65149325-5db3-467b-9f1c-ab1cdb76224d",
+        "email": "Carlotta.Satterfield73@roq.tech",
+        "firstName": "Nadia",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1043.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1547d27-a19d-4da1-b684-1fe53fddeb51",
+        "email": "Benedict46@roq.tech",
+        "firstName": "Serenity",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/171.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1212bb14-1d6a-4d54-8e75-80ebb2ed4719",
+        "email": "Damian66@roq.tech",
+        "firstName": "Santiago",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55206049",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "e612785b-ac22-4324-bd3b-cb0fa123f89a",
+        "created_at": "2023-09-24T18:27:12.217Z",
+        "updated_at": "2023-09-25T04:34:13.392Z"
+      },
+      {
+        "id": "e0941d64-547c-4a66-91bd-0ff371e95b3d",
+        "created_at": "2023-09-24T11:29:09.429Z",
+        "updated_at": "2023-09-24T08:47:45.571Z"
+      },
+      {
+        "id": "da4e163e-b70e-433e-b5ca-929ecbf09dd8",
+        "created_at": "2023-09-24T13:33:13.738Z",
+        "updated_at": "2023-09-24T09:08:52.280Z"
+      },
+      {
+        "id": "9f6a05b4-df59-48a3-9c7d-6f4cba6672c5",
+        "created_at": "2023-09-24T08:34:40.271Z",
+        "updated_at": "2023-09-24T19:47:34.110Z"
+      },
+      {
+        "id": "6e0594eb-cffa-4efa-acf4-87034ae7c48e",
+        "created_at": "2023-09-24T11:37:23.043Z",
+        "updated_at": "2023-09-24T17:22:46.730Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "b7b7ad4d-e14d-455a-bbd5-530160c7e78c",
+        "name": "Buddy",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 47216,
+        "weight": 95060,
+        "created_at": "2023-09-24T08:24:02.490Z",
+        "updated_at": "2023-09-24T14:33:01.053Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a588192-aee0-48cf-aed2-5a0720a4d059",
+        "name": "Luna",
+        "species": "Cat",
+        "breed": "Siamese",
+        "age": 35414,
+        "weight": 44824,
+        "created_at": "2023-09-24T18:48:47.135Z",
+        "updated_at": "2023-09-24T20:20:53.288Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "242974b6-a4fc-4389-ade3-ce0a42fefb49",
+        "name": "Max",
+        "species": "Rabbit",
+        "breed": "Dwarf Hotot",
+        "age": 42337,
+        "weight": 49050,
+        "created_at": "2023-09-24T21:50:48.510Z",
+        "updated_at": "2023-09-25T01:55:56.454Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3796352c-bbed-4d1c-aefc-dee9560f9d39",
+        "name": "Daisy",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 95247,
+        "weight": 46576,
+        "created_at": "2023-09-24T16:37:57.922Z",
+        "updated_at": "2023-09-24T16:31:09.587Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07f68299-7a77-44d6-bf50-f8c6b7c29537",
+        "name": "Charlie",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 85999,
+        "weight": 97438,
+        "created_at": "2023-09-25T07:20:22.847Z",
+        "updated_at": "2023-09-24T19:16:25.741Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "83ab4a7d-a4f7-40a5-bfde-587af2883d28",
+        "sale_date": "2023-09-24T23:17:30.802Z",
+        "price": 35724,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-24T12:12:40.703Z",
+        "updated_at": "2023-09-24T22:59:00.043Z",
+        "pet_id": "b7b7ad4d-e14d-455a-bbd5-530160c7e78c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49077bd5-85a2-44ff-8cf1-5cbe4e74e9c7",
+        "sale_date": "2023-09-25T00:15:02.831Z",
+        "price": 56173,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-25T07:58:44.124Z",
+        "updated_at": "2023-09-25T03:23:57.539Z",
+        "pet_id": "2a588192-aee0-48cf-aed2-5a0720a4d059",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2ba9c7b-6207-4852-bc30-cde3d30a3166",
+        "sale_date": "2023-09-24T12:44:06.105Z",
+        "price": 51782,
+        "payment_method": "Cash",
+        "created_at": "2023-09-24T19:43:31.017Z",
+        "updated_at": "2023-09-25T00:19:04.411Z",
+        "pet_id": "3796352c-bbed-4d1c-aefc-dee9560f9d39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "468d9a97-1a94-49fe-a665-1f259dfac442",
+        "sale_date": "2023-09-25T05:58:52.330Z",
+        "price": 78395,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T10:42:58.355Z",
+        "updated_at": "2023-09-24T13:06:08.349Z",
+        "pet_id": "3796352c-bbed-4d1c-aefc-dee9560f9d39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51923114-794f-4fd2-bd97-9ab4d5a8a864",
+        "sale_date": "2023-09-25T07:33:57.584Z",
+        "price": 51037,
+        "payment_method": "Apple Pay",
+        "created_at": "2023-09-24T12:04:25.711Z",
+        "updated_at": "2023-09-25T05:15:47.283Z",
+        "pet_id": "3796352c-bbed-4d1c-aefc-dee9560f9d39",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "d312e7a3-800d-4439-84f6-48ae7c51dbb4",
+        "purchase_date": "2023-09-24T17:44:01.667Z",
+        "price": 33426,
+        "payment_method": "Debit Card",
+        "created_at": "2023-09-24T22:54:10.887Z",
+        "updated_at": "2023-09-25T01:57:03.416Z",
+        "pet_id": "07f68299-7a77-44d6-bf50-f8c6b7c29537",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a50808c1-2f67-4e40-b10f-0355d28410f4",
+        "purchase_date": "2023-09-24T11:58:24.274Z",
+        "price": 19641,
+        "payment_method": "Google Pay",
+        "created_at": "2023-09-24T16:38:53.697Z",
+        "updated_at": "2023-09-25T01:45:45.421Z",
+        "pet_id": "07f68299-7a77-44d6-bf50-f8c6b7c29537",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce875186-1195-458c-b20f-65aa5bc113de",
+        "purchase_date": "2023-09-24T20:12:07.001Z",
+        "price": 81725,
+        "payment_method": "Check",
+        "created_at": "2023-09-24T22:04:18.869Z",
+        "updated_at": "2023-09-24T23:09:11.783Z",
+        "pet_id": "07f68299-7a77-44d6-bf50-f8c6b7c29537",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "235e9bbb-9892-429e-ae76-c87b343981e5",
+        "purchase_date": "2023-09-24T14:34:08.972Z",
+        "price": 66328,
+        "payment_method": "Zelle",
+        "created_at": "2023-09-24T19:10:36.062Z",
+        "updated_at": "2023-09-25T01:46:58.322Z",
+        "pet_id": "b7b7ad4d-e14d-455a-bbd5-530160c7e78c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "839e35b8-bb4d-47a7-a4eb-7257be10b69f",
+        "purchase_date": "2023-09-24T20:40:33.388Z",
+        "price": 3956,
+        "payment_method": "Bitcoin",
+        "created_at": "2023-09-24T14:52:44.614Z",
+        "updated_at": "2023-09-25T00:49:25.020Z",
+        "pet_id": "242974b6-a4fc-4389-ade3-ce0a42fefb49",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ba90f7e1-8453-4523-89bf-ca2a69b9a7d6",
+        "email": "Gavin.Thiel@roq.tech",
+        "firstName": "Braulio",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/512.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6b3bd5db-8492-473e-83e8-1145c611d645",
+        "email": "Murray_Emard91@roq.tech",
+        "firstName": "Clemens",
+        "lastName": "Ziemann-Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/242.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff48174b-557a-4abd-b4ad-72e7ca2910c8",
+        "email": "Daren_Nader21@roq.tech",
+        "firstName": "America",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54947839",
+        "tenantId": null
+      },
+      {
+        "reference": "22d6b3bd-5d40-4c30-a997-1a987bc43d94",
+        "email": "Leila1@roq.tech",
+        "firstName": "Kitty",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19043226",
+        "tenantId": null
+      },
+      {
+        "reference": "512fe02c-9ca4-4acc-8294-fb971e1c3a9b",
+        "email": "Kendra2@roq.tech",
+        "firstName": "Emely",
+        "lastName": "Grady",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/761.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "pet_profile": [
+      {
+        "id": "37f183e3-7ce4-4330-a6ef-28c6164349fc",
+        "created_at": "2023-09-24T16:36:28.756Z",
+        "updated_at": "2023-09-25T01:01:48.106Z"
+      },
+      {
+        "id": "b0b772bd-d719-4f5c-be29-2b23c033e75b",
+        "created_at": "2023-09-24T16:11:00.204Z",
+        "updated_at": "2023-09-24T22:21:24.366Z"
+      },
+      {
+        "id": "87488e5c-6944-49ee-82f4-a47e0b1f3967",
+        "created_at": "2023-09-24T08:49:07.262Z",
+        "updated_at": "2023-09-25T04:21:49.065Z"
+      },
+      {
+        "id": "27913397-65ff-4268-8067-b584a56c55bd",
+        "created_at": "2023-09-25T02:51:57.651Z",
+        "updated_at": "2023-09-24T08:28:21.526Z"
+      },
+      {
+        "id": "64214475-cb8c-44ca-ad85-b3259d195230",
+        "created_at": "2023-09-24T13:11:12.706Z",
+        "updated_at": "2023-09-24T15:02:24.866Z"
+      }
+    ],
+    "pet": [
+      {
+        "id": "6f9e1bce-2b03-48cf-bd52-38e62a2d4de4",
+        "name": "Max",
+        "species": "Dog",
+        "breed": "Labrador Retriever",
+        "age": 71172,
+        "weight": 95412,
+        "created_at": "2023-09-24T09:24:09.831Z",
+        "updated_at": "2023-09-24T15:02:46.099Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6d22b6d-0c60-494d-95a5-d830437f2017",
+        "name": "Bella",
+        "species": "Cat",
+        "breed": "Persian",
+        "age": 49379,
+        "weight": 39093,
+        "created_at": "2023-09-24T13:48:02.135Z",
+        "updated_at": "2023-09-24T22:53:58.290Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc622a5e-79c6-497d-9a60-5e199be699ec",
+        "name": "Charlie",
+        "species": "Bird",
+        "breed": "Parakeet",
+        "age": 96170,
+        "weight": 14135,
+        "created_at": "2023-09-25T02:56:42.204Z",
+        "updated_at": "2023-09-25T06:18:52.750Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b53f662-311a-4e85-8cfd-188b079b5216",
+        "name": "Luna",
+        "species": "Rabbit",
+        "breed": "Dutch Rabbit",
+        "age": 31032,
+        "weight": 55628,
+        "created_at": "2023-09-24T23:24:29.138Z",
+        "updated_at": "2023-09-24T11:45:35.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7e72136-abba-47cc-9bf0-c8418ca4eac1",
+        "name": "Cooper",
+        "species": "Fish",
+        "breed": "Goldfish",
+        "age": 25419,
+        "weight": 52823,
+        "created_at": "2023-09-25T07:16:03.601Z",
+        "updated_at": "2023-09-24T20:10:08.811Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sale": [
+      {
+        "id": "b8eb0a6f-dacd-4114-8cfa-14f1b50f6670",
+        "sale_date": "2023-09-24T17:30:32.881Z",
+        "price": 49717,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-25T02:11:53.018Z",
+        "updated_at": "2023-09-24T08:57:24.501Z",
+        "pet_id": "c6d22b6d-0c60-494d-95a5-d830437f2017",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e662344e-8b59-481d-805e-2e9015bfe504",
+        "sale_date": "2023-09-24T15:18:27.706Z",
+        "price": 67092,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-24T08:31:25.437Z",
+        "updated_at": "2023-09-25T04:11:59.336Z",
+        "pet_id": "4b53f662-311a-4e85-8cfd-188b079b5216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0f6c9b9-1ce1-4166-9a01-512a3b364f5d",
+        "sale_date": "2023-09-25T04:25:21.492Z",
+        "price": 55708,
+        "payment_method": "Cash",
+        "created_at": "2023-09-24T23:32:42.984Z",
+        "updated_at": "2023-09-25T05:47:04.142Z",
+        "pet_id": "4b53f662-311a-4e85-8cfd-188b079b5216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95f0d7b4-1496-4ffa-943b-9d1f19152662",
+        "sale_date": "2023-09-24T11:20:06.252Z",
+        "price": 56433,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-24T18:48:01.192Z",
+        "updated_at": "2023-09-25T03:46:44.770Z",
+        "pet_id": "b7e72136-abba-47cc-9bf0-c8418ca4eac1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25260b33-4b7e-4820-9a2d-3050c216b7a6",
+        "sale_date": "2023-09-24T10:17:12.701Z",
+        "price": 20390,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-24T17:28:45.197Z",
+        "updated_at": "2023-09-24T19:37:21.956Z",
+        "pet_id": "b7e72136-abba-47cc-9bf0-c8418ca4eac1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "5f0dc47b-e26d-48bd-b2c7-d30b173f0c3c",
+        "purchase_date": "2023-09-25T04:17:04.884Z",
+        "price": 63417,
+        "payment_method": "Credit Card",
+        "created_at": "2023-09-25T00:21:55.105Z",
+        "updated_at": "2023-09-24T23:45:10.731Z",
+        "pet_id": "4b53f662-311a-4e85-8cfd-188b079b5216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d14fff7e-eb48-430d-b224-29873dbbed93",
+        "purchase_date": "2023-09-25T01:23:12.452Z",
+        "price": 93093,
+        "payment_method": "PayPal",
+        "created_at": "2023-09-25T06:24:02.167Z",
+        "updated_at": "2023-09-24T18:02:49.567Z",
+        "pet_id": "bc622a5e-79c6-497d-9a60-5e199be699ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ca2df44-df42-4adb-9cf1-e6849f441f8b",
+        "purchase_date": "2023-09-24T10:57:12.864Z",
+        "price": 4940,
+        "payment_method": "Cash",
+        "created_at": "2023-09-24T22:14:33.171Z",
+        "updated_at": "2023-09-24T12:02:37.673Z",
+        "pet_id": "4b53f662-311a-4e85-8cfd-188b079b5216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7276cee-77c8-40b4-a1d9-69ce0c1d177d",
+        "purchase_date": "2023-09-24T15:18:12.643Z",
+        "price": 65169,
+        "payment_method": "Bank Transfer",
+        "created_at": "2023-09-24T08:41:18.071Z",
+        "updated_at": "2023-09-24T23:50:14.404Z",
+        "pet_id": "4b53f662-311a-4e85-8cfd-188b079b5216",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29ec9938-1d2c-406f-b598-9e255f37be7b",
+        "purchase_date": "2023-09-24T17:40:14.893Z",
+        "price": 71337,
+        "payment_method": "Venmo",
+        "created_at": "2023-09-25T05:45:24.286Z",
+        "updated_at": "2023-09-24T11:54:46.326Z",
+        "pet_id": "bc622a5e-79c6-497d-9a60-5e199be699ec",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c12f63ca-0f1e-4562-bc41-313db33c06e6",
+        "email": "Lafayette.Nitzsche85@roq.tech",
+        "firstName": "Luigi",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10738930",
+        "tenantId": null
+      },
+      {
+        "reference": "b16089c6-4301-4fc4-912f-76e43d326df3",
+        "email": "Davon_Ziemann38@roq.tech",
+        "firstName": "Shany",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19951909",
+        "tenantId": null
+      },
+      {
+        "reference": "0b6c4f64-dc18-48f4-9634-1553fedd343c",
+        "email": "Mustafa_Kshlerin91@roq.tech",
+        "firstName": "Maureen",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/434.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b2fd8eb-fefe-4689-82f9-c82742b9d867",
+        "email": "Royal_Boehm85@roq.tech",
+        "firstName": "Clementine",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53808716",
+        "tenantId": null
+      },
+      {
+        "reference": "2467ad4c-0040-4aa9-984c-8c4208ad1f66",
+        "email": "Arely_Osinski11@roq.tech",
+        "firstName": "Faustino",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83447742",
+        "tenantId": null
+      }
+    ]
+  }
+]
